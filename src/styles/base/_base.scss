@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%; // Set the 'rem' measures to be x10 bigger than the pixel measures
+}
+
+body {
+    color: $dark-grey;
+    font-family: Helvetica, Arial, sans-serif;  // We set some fonts, prioritized and used as each system supports the fonts
+    font-size: $m-size;
+    line-height: 1.6;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:disabled {
+    cursor: default;
+}
+
+.is-active {
+    font-weight: bold;
+}
